@@ -1,0 +1,68 @@
+
+h1{
+    color: rgb(255, 0, 0);
+}
+.form-control.hide{
+    display: none;
+}
+.container-fluid{
+    display: flex;
+}
+#list{
+    flex: 2;
+    background-color: rgba(48, 56, 128, 0.507);
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 3px 3px 3px 3px;
+}
+.pending-tasks{
+    display: inline-flex;
+}
+#capture-form{
+    flex: 1;
+    background-color: rgba(48, 56, 128, 0.507);
+    color: white;
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 3px 3px 3px 3px;
+}
+.category-container{
+    display: flex;
+}
+.category-select{
+    flex: 1;
+}
+.category-input{
+    flex: 4;
+    margin-left: 7px;
+}
+#iImportant{
+    font-size: 32px;
+    cursor: pointer;
+}
+#iImportant.far{
+    color: blue;
+} 
+#iImportant.fas{
+    color: rgb(255, 196, 0);
+} 
+
+.task{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(94, 91, 94);
+    padding: 3px 3px 3px 3px;
+}
+.task-header-container{
+    display: flex;
+    flex-direction: column;
+}
+.task-title{
+    font-size: large;
+}
+.task-description{
+    font-size: .75rem;
+}
